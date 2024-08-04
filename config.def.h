@@ -105,6 +105,12 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 	{ MODKEY,                       XK_w,      spawn,          {.v = browsercmd } },
+	{ 0, XK_F7, spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -5%") },
+        { 0, XK_F8, spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ +5%") },
+        { 0, XK_F9, spawn, SHCMD("pactl set-sink-mute @DEFAULT_SINK@ toggle") },
+        { 0, XK_F10, spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ 50%") },
+        { 0, XK_F11, spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ 100%") },
+
 };
 
 /* button definitions */
