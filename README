@@ -17,6 +17,7 @@ xorg-xinit
 libx11
 libxft
 libxineramma
+fonts= (noto-fonts) recommended or (libertinus-font)
 
 
 Installation
