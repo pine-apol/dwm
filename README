@@ -1,3 +1,6 @@
+My own dwm setup by the suckless devs.
+Below is how to apply it to your system :
+
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
@@ -6,6 +9,12 @@ dwm is an extremely fast, small, and dynamic window manager for X.
 Requirements
 ------------
 In order to build dwm you need the Xlib header files.
+(Xorg group) AIO setup
+xorg-server
+xorg-xinit
+libx11
+libxft
+libxineramma
 
 
 Installation
@@ -16,7 +25,7 @@ the /usr/local namespace by default).
 Afterwards enter the following command to build and install dwm (if
 necessary as root):
 
-    make clean install
+root privileges ---> #make clean install / $sudo make clean install  <--- super user privileges
 
 
 Running dwm
