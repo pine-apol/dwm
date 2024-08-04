@@ -10,6 +10,7 @@ Requirements
 ------------
 In order to build dwm you need the Xlib header files.
 (Xorg group) AIO setup
+or
 xorg-server
 xorg-xinit
 libx11
