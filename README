@@ -17,7 +17,7 @@ xorg-xinit
 libx11
 libxft
 libxineramma
-fonts= (noto-fonts) recommended or (libertinus-font)
+fonts= (noto-fonts, noto-fonts-emoji ttf-font-awesome awesome-terminal-fonts ttf-joypixels) recommended or (libertinus-font)
 
 
 Installation
